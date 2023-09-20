@@ -13,7 +13,7 @@ override_dh_auto_configure:
         wget $(url) -O $(build_dir).tar.gz
         tar -xzf $(build_dir).tar.gz -C $(build_dir)/ --strip-components=1
         rm -f $(build_dir).tar.gz
-        cd $(build_dir) && ./configure
+        cd $(build_dir)
 
 override_dh_usrlocal:
 
