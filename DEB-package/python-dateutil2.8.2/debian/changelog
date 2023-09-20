@@ -5,4 +5,4 @@ python-dateutil (2.8.2) unstable; urgency=medium
    Fixed various bugs and issues
    Improved performance and efficiency
   * Initial release
- -- Dmitriy Voronkov <master@dmosk.ru>  Tue, 03 Aug 2021 17:34:42 +0300
+ -- Dmitriy Voronkov <voronkov.vot@yandex.ru>  Tue, 03 Aug 2021 17:34:42 +0300
