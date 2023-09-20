@@ -1,0 +1,20 @@
+Source: python-dateutil
+Maintainer: Dmitrii Voronkov<youremail@example.com>
+Section: python
+Priority: optional
+Homepage: https://dateutil.readthedocs.io/
+Standards-Version: 4.5.0
+Build-Depends: debhelper-compat (= 13), python3-all, python3-setuptools, python3-wheel
+
+Package: python3-dateutil
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: powerful extensions to the standard Python datetime module - Python 3.x
+ The dateutil module provides powerful extensions to the standard Python datetime module, available in Python 3.x.
+
+Package: python-dateutil-doc
+Architecture: all
+Section: doc
+Depends: ${sphinxdoc:Depends}, ${misc:Depends}
+Description: documentation for python-dateutil
+ This package provides the documentation for the python-dateutil library.
