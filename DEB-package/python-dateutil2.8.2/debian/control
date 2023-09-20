@@ -4,7 +4,7 @@ Section: python
 Priority: optional
 Homepage: https://dateutil.readthedocs.io/
 Standards-Version: 4.5.0
-Build-Depends: debhelper-compat (= 13), python3-all, python3-setuptools, python3-wheel
+Build-Depends:python3-all, python3-setuptools, python3-wheel
 
 Package: python3-dateutil
 Architecture: all
