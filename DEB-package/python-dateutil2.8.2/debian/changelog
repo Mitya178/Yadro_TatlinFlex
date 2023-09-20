@@ -1,3 +1,8 @@
-nginx (1.20.1) stable; urgency=medium
+python-dateutil (2.8.2) unstable; urgency=medium
+
+   New upstream release (2.8.2)
+   Upgraded compatibility with Python 3.8
+   Fixed various bugs and issues
+   Improved performance and efficiency
   * Initial release
  -- Dmitriy Voronkov <master@dmosk.ru>  Tue, 03 Aug 2021 17:34:42 +0300
