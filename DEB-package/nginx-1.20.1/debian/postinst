@@ -1,0 +1,8 @@
+#!/bin/sh
+# postinst script for dmosk
+#
+# see: dh_installdeb(1)
+
+set -e
+
+useradd dima
