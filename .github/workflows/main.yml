@@ -1,0 +1,22 @@
+name: Build Package
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Build package
+      run: |
+        # Вставьте команды для сборки вашего пакета здесь
+        # Например: npm install && npm run build
+        cd DEB-package
+        docker build -t test:v1 .
+        docker run -it --name test test:v1
