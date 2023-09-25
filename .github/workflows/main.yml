@@ -15,8 +15,8 @@ jobs:
 
     - name: Build package
       run: |
-        # Вставьте команды для сборки вашего пакета здесь
-        # Например: npm install && npm run build
+        ls -la
         cd DEB-package
+        ls -la
         docker build -t test:v1 .
         docker run -it --name test test:v1
