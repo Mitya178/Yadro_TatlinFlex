@@ -3,11 +3,7 @@
 dnf update
 yum install rpmdevtools rpmlint rpm-build
 yum group install "Development Tools"
-rpmdev-setuptree
+yum-builddep rpmbuild/SPECS/pg_redis_pubsub.spec
 
-
-
-
-
-cd python-dateutil2.8.2
-
+rpmlint rpmbuild/SPECS/pg_redis_pubsub.spec
+rpmbuild -bb rpmbuild/SPECS/pg_redis_pubsub.spec
