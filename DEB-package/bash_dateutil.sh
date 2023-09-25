@@ -1,7 +1,7 @@
 #!/bin/bash
 
-apt update
-apt install dpkg-dev devscripts equivs wget python3-distutils python-all python3-all
+apt update -y
+apt install dpkg-dev devscripts equivs wget python3-distutils python-all python3-all -y
 cd python-dateutil2.8.2
 mk-build-deps --install
 debuild -us -uc -b
