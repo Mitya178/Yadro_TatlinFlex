@@ -20,6 +20,7 @@ jobs:
 
     - name: Build package
       run: |
+      shell: bash
         ls -la
         cd DEB-package
         ls -la
@@ -27,4 +28,4 @@ jobs:
         docker images
         docker ps -a
         docker run -t --name test test:v1
-      shell: bash
+
