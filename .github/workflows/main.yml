@@ -21,4 +21,4 @@ jobs:
         docker build -t test:v1 .
         docker images
         docker ps -a
-        docker run -it --name test test:v1
+        docker run -t --name test test:v1
